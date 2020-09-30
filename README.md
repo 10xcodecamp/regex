@@ -37,7 +37,7 @@ Write regex that validates a password that only contains letters (lower case or 
 _!#/\-
 ```
 
-The password must also be greater than 9 characters.
+The password must also be at least 9 characters.
 
 ###### PASS
 
