@@ -55,10 +55,10 @@ MY#1PASSword
 ```
 password
 password:)
+myp@ssword
 mypassword :)
  mypassword
 123456
-mike@gmail.com
 ```
 
 ## Validate URL formatting
@@ -104,14 +104,13 @@ http:www.example.com
 
 Write regex that validates an email given the following criteria.
 
--  The email address must begin with at least 1 “word” character (front of local-part)
+-  The email address must begin with at least 1 letter, number, or underscore (front of local-part)
 -  Followed by 0 or more of any character (back of local-part)
 -  Followed by the @ symbol
 -  Followed by 1 letter or number (front of domain name)
 -  Followed by 1 or more letters, numbers, underscores, or dashes (back of domain name)
 -  Followed by a period
 -  Followed by 2 or more letters (top level domain)
--  And the regex is case insensitive
 
 ###### PASS
 
@@ -137,7 +136,7 @@ example.com
 @example.ai
 mike@g.com
 mike@example.c
- mike@gmail.com
-mike@gmail.com please don't email me
+ mike@example.com
+mike@example.com please don't email me
 +no-reply-mike@example.com
 ```
