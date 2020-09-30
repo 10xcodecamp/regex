@@ -12,6 +12,7 @@ Write regex that validates a phone number given the following criteria.
 
 ```
 (702) 555-1234
+(555) 123-4567
 ```
 
 ###### FAIL
